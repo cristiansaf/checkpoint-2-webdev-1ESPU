@@ -44,6 +44,21 @@ switch (diaSemana) {
 // Questão 6
 
 // Questão 7
+function verificarIdade(idade) {
+    if (idade < 18) {
+        return "Menor de idade";
+    } else if (idade >= 18 && idade < 60) {
+        return "Maior de idade";
+    } else {
+        return "Idoso";
+    }
+}
+
+console.log(verificarIdade(10));
+console.log(verificarIdade(18));
+console.log(verificarIdade(35));
+console.log(verificarIdade(60));
+console.log(verificarIdade(75));
 
 
 // Questão 8
